@@ -11,6 +11,13 @@ export const Title = styled(Link)`
   font-size: 28px;
   margin-bottom: 25px;
   cursor: pointer;
+  background-image: linear-gradient(
+      135deg,
+      #DDBC9C 0%,
+      #E19B6A 50%
+  );
+  color: transparent;
+  -webkit-background-clip:text;
 `;
 
 export const Preview = styled.div`

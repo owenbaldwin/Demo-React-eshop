@@ -7,6 +7,7 @@ export const BackgroundImage = styled.div`
   background-size: cover;
   background-position: center;
   background-image: ${({imageUrl}) => `url(${imageUrl})`};
+
 `;
 
 export const Body = styled.div`
@@ -16,8 +17,9 @@ export const Body = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
-  background-color: white;
+  border: 2px solid #B68E6E;
+  border-radius: 5px;
+  background-color: #DDBC9C;
   opacity: 0.7;
   position: absolute;
 
@@ -25,7 +27,7 @@ export const Body = styled.div`
     font-weight: bold;
     margin: 0 6px 0;
     font-size: 22px;
-    color: #4a4a4a;
+    color: black;
     text-transform: uppercase;
   }
 
@@ -42,12 +44,19 @@ export const DirectoryItemContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
+  /* border: 1px solid #B68E6E; */
   margin: 0 7.5px 15px;
   overflow: hidden;
+  background:
+    linear-gradient(#29263A, #29263A) padding-box,
+    linear-gradient(135deg, #DDBC9C, #E19B6A) border-box;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  transition: 0.5s;
 
   &:hover {
     cursor: pointer;
+    transition: 0.5s;
 
     & ${BackgroundImage} {
       transform: scale(1.1);

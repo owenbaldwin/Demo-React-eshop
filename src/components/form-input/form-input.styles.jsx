@@ -52,5 +52,6 @@ export const Group = styled.div`
   margin: 45px 0;
   input[type='password'] {
     letter-spacing: 0.3em;
+
   }
 `;

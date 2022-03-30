@@ -4,15 +4,23 @@ export const ProductCardContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 350px;
+  height: 390px;
   align-items: center;
   position: relative;
+
 
   img {
     width: 100%;
     height: 95%;
     object-fit: cover;
     margin-bottom: 5px;
+    /* border-radius: 10px; */
+    background:
+      linear-gradient(#29263A, #29263A) padding-box,
+      linear-gradient(135deg, #DDBC9C, #E19B6A) border-box;
+    border-radius: 10px;
+    border: 1px solid transparent;
+
   }
   button {
     width: 80%;
@@ -43,10 +51,24 @@ export const Footer = styled.div`
 
   .name {
     width: 90%;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
+    background-image: linear-gradient(
+      135deg,
+      #DDBC9C 0%,
+      #E19B6A 50%
+    );
+    color: transparent;
+    -webkit-background-clip:text;
   }
 
   .price {
     width: 10%;
+    background-image: linear-gradient(
+      135deg,
+      #DDBC9C 0%,
+      #E19B6A 50%
+    );
+    color: transparent;
+    -webkit-background-clip:text;
   }
 `;

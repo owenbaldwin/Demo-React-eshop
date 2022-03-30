@@ -18,12 +18,19 @@ export const CheckoutHeader = styled.div`
   padding: 10px 0;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid darkgrey;
+  border-bottom: 1px solid #DDBC9C;
 `;
 
 export const HeaderBlock = styled.div`
   text-transform: capitalize;
   width: 23%;
+  background-image: linear-gradient(
+    135deg,
+    #DDBC9C 0%,
+    #E19B6A 50%
+  );
+  color: transparent;
+  -webkit-background-clip:text;
 
   &:last-child {
     width: 8%;
@@ -34,4 +41,11 @@ export const Total = styled.span`
   margin-top: 30px;
   margin-left: auto;
   font-size: 36px;
+  background-image: linear-gradient(
+    135deg,
+    #DDBC9C 0%,
+    #E19B6A 50%
+  );
+  color: transparent;
+  -webkit-background-clip:text;
 `;
