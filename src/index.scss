@@ -4,6 +4,7 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1B182A;
 }
 
 code {
@@ -19,3 +20,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+// COLOURS:
+$dark-theme: #1B182A;
+$mid-theme: #29263A;
+$beige-1: #DDBC9C;
+$beige-2: #E19B6A;
+$beige-3: #B68E6E;
